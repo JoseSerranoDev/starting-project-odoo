@@ -1,0 +1,10 @@
+<odoo>
+    <!-- Root Menu -->
+    <menuitem id="estate_menu_root" name="Real Estate">
+        <!-- First Level Menu -->
+        <menuitem id="estate_first_level_menu" name="Properties">
+            <!-- Actions Level Menu -->
+            <menuitem id="estate_property_action_menu" action="estate_property_action"/>
+        </menuitem>
+    </menuitem>
+</odoo>
