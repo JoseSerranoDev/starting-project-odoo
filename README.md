@@ -19,8 +19,8 @@ Before starting, make sure you have installed the following:
 Clone the project from GitHub and enter the project folder:
 
 ```bash
-git clone https://github.com/yourusername/yourrepository.git
-cd yourrepository
+git clone https://github.com/JoseSerranoDev/starting-project-odoo.git
+cd starting-project-odoo
 ```
 
 ### 2. Configure environment variables
@@ -81,3 +81,19 @@ docker exec -it odoo-app sh -c "odoo -d odoo_db --db_host=db --db_user=odoo_user
 docker exec -it {container_name} psql -U {user} -d {database}
 
 docker exec -it odoo-db psql -U odoo_user -d odoo_db
+
+
+# Docs
+
+## Odoo Development Documentation
+
+https://www.odoo.com/documentation/master/developer/tutorials/setup_guide.html
+
+## Odoo docker setup documentation
+
+https://hub.docker.com/_/odoo
+
+## PostgreSQL docker documentation
+
+https://hub.docker.com/_/postgres
+
