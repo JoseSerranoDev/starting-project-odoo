@@ -78,11 +78,9 @@
                 <filter
                     name="available"
                     string="Available"
-                    domain="[('state', 'in', ('new', 'offer_received'))]"
+                    domain="['|', ('state', '=', 'new'), ('state', '=', 'offer_received')]"
                 />
-                <group expand="0" string="Group By">
-                    <filter string="Postcode" name="group_by_postcode" context="{'group_by': 'postcode'}"/>
-                </group>
+                <filter string="Postcode" name="postcode" context="{'group_by': 'postcode'}"/>
             </search>
         </field>
     </record>
